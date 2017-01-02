@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Blog</title>
-    <!-- TODO: Add a meta tag to properly set the viewport and initial-scale -->
+    <!-- DONE: Add a meta tag to properly set the viewport and initial-scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="vendor/styles/normalize.css">
     <link rel="stylesheet" href="vendor/icons.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -21,14 +22,16 @@
         <h2>The shocking power of static pages</h2>
       </section>
       <nav class="main-nav">
-        <!-- TODO: Insert here a 'hamburger' menu icon font. Use a container div! -->
+        <!-- DONE: Insert here a 'hamburger' menu icon font. Use a container div! -->
+        <div class="icon-menu">
+        </div>
         <ul>
           <!-- TODO: Fill in the empty class attributes for each <li> with the
                       proper icon font name -->
-          <li class="tab" data-content="articles"><a href="#" class=""> Home</a></li>
-          <li class="tab" data-content="about"><a href="#" class=""> About</a></li>
-          <li><a href="http://twitter.com/codefellowsSEA" target="_blank" class=""> Twitter</a></li>
-          <li><a href="http://github.com/" target="_blank" class=""> GitHub</a></li>
+          <li class="tab" data-content="articles"><a href="#" class="home"> Home</a></li>
+          <li class="tab" data-content="about"><a href="#" class="about"> About</a></li>
+          <li><a href="http://twitter.com/codefellowsSEA" target="_blank" class="twitter"> Twitter</a></li>
+          <li><a href="http://github.com/" target="_blank" class="github"> GitHub</a></li>
         </ul>
       </nav>
     </header>
